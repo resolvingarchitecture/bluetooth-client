@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/resolvingarchitecture/bluetooth-client.svg?branch=master)](https://travis-ci.com/resolvingarchitecture/bluetooth-client)
 # Bluetooth Client
 A client for interacting with the local Bluetooth radio.
 
