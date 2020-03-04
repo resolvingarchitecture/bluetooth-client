@@ -21,5 +21,7 @@ failure = "0.1.5"
 exitfailure = "0.5.1"
 #blurz = "0.4.0"
 
+ra_traits = "0.0.1"
+
 [dev-dependencies]
 assert_cmd = "0.10"
