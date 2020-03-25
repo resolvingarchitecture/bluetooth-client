@@ -12,10 +12,10 @@ pub struct BluetoothClient {
 }
 
 impl BluetoothClient {
-    pub fn new() -> Box<BluetoothClient> {
-        Box::new(BluetoothClient {
+    pub fn new() -> BluetoothClient {
+        BluetoothClient {
 
-        })
+        }
     }
     pub fn init(&mut self) {
         info!("{}","Initializing Bluetooth client...")
