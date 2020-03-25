@@ -18,13 +18,13 @@ impl BluetoothClient {
         })
     }
     pub fn init(&mut self) {
-        info!("{}","BLuetooth Client not implemented.")
+        info!("{}","Initializing Bluetooth client...")
     }
 }
 
 impl Network for BluetoothClient {
     fn handle(&mut self, packet: &mut Packet) {
-        unimplemented!()
+        info!("Handling incoming packet id={}",packet.id);
         // let path = packet.to_addr.as_str();
         // let session = BluetoothSession::create_session(Option::Some(path)).unwrap();
         // let adapter = BluetoothAdapter::init(&session).unwrap();
