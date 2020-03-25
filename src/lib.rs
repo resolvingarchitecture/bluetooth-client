@@ -18,7 +18,7 @@ impl BluetoothClient {
         })
     }
     pub fn init(&mut self) {
-        info!("{}","Initializing TOR Client...")
+        info!("{}","BLuetooth Client not implemented.")
     }
 }
 
