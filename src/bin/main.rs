@@ -1,7 +1,7 @@
 extern crate log;
 extern crate simple_logger;
 
-use log::{trace,info};
+use log::{trace};
 use bluetooth_client::BluetoothClient;
 
 fn main() {
