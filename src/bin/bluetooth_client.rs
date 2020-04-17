@@ -3,7 +3,7 @@ extern crate simple_logger;
 
 use log::{trace};
 use bluetooth_client::BluetoothClient;
-use clap::{App, AppSettings, Arg};
+use clap::{crate_version, App, AppSettings, Arg};
 
 fn main() {
     simple_logger::init().unwrap();

@@ -3,8 +3,6 @@
 // use blurz::bluetooth_device::BluetoothDevice;
 // use blurz::BluetoothSession;
 
-use ra_common::models::{Packet};
-
 use log::{info};
 
 pub struct BluetoothClient {
@@ -17,22 +15,7 @@ impl BluetoothClient {
 
         }
     }
-    pub fn init(&mut self) {
-        info!("{}","Initializing Bluetooth client...")
-    }
 
-    pub fn handle(&mut self, packet: &mut Packet) {
-        info!("Handling incoming packet id={}",packet.id);
-        // let path = packet.to_addr.as_str();
-        // let session = BluetoothSession::create_session(Option::Some(path)).unwrap();
-        // let adapter = BluetoothAdapter::init(&session).unwrap();
-        // let device = adapter.get_first_device().unwrap();
-        // info!("{:?}", device);
-        // match device.connect(5000) {
-        //     Ok(_) => (),
-        //     Err(e) => warn!("{:?}", e),
-        // }
-    }
 }
 
 // Send Message using Bluetooth Radio
