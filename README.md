@@ -65,3 +65,36 @@ Request BTC/XMR/ZEC address for a donation at brian@resolvingarchitecture.io.
 [Examples for dev](https://github.com/szeged/blurz/tree/master/examples)
 
 !! WIP - not stable until version 1.0 !!
+
+## Setup - Ubuntu 18.04
+1. Install Bluez
+    ```shell script
+    snap install bluez
+    ```
+2. Install Rust
+   ```shell script
+   sudo apt update
+   sudo apt upgrade
+   curl https://sh.rustup.rs -sSf | sh
+   ```
+3. Restart terminal
+4. Verify Rust installed
+    ```shell script
+     rustc --version
+    ```
+5. Install build essentials
+    ```shell script
+    sudo apt install build-essential
+    ```
+6. install crate
+    ```shell script
+    cargo install bluetooth_client
+    ```
+
+## Development
+
+### Links
+* https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/available-commands
+* https://pub.tik.ee.ethz.ch/people/beutel/bluezhowto.pdf
+* https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/
+* https://www.pcsuggest.com/linux-bluetooth-setup-hcitool-bluez/

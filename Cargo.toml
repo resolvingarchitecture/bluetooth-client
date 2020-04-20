@@ -1,6 +1,6 @@
 [package]
 name = "bluetooth_client"
-version = "0.0.12"
+version = "0.0.13"
 authors = ["Brian Taylor <brian@resolvingarchitecture.io>"]
 license-file = "LICENSE"
 edition = "2018"
@@ -23,6 +23,7 @@ base64 = "0.12.0"
 clap = "2.33.0"
 
 #blurz = "0.4.0"
+bluez = "0.1.2"
 
 [dev-dependencies]
 assert_cmd = "0.10"
