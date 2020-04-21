@@ -98,3 +98,5 @@ Request BTC/XMR/ZEC address for a donation at brian@resolvingarchitecture.io.
 * https://pub.tik.ee.ethz.ch/people/beutel/bluezhowto.pdf
 * https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/
 * https://www.pcsuggest.com/linux-bluetooth-setup-hcitool-bluez/
+* https://github.com/szeged/blurz
+* https://crates.io/crates/blurz
